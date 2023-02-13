@@ -353,6 +353,7 @@ extern "C" void UnityCleanupTrampoline()
     // if you wont use keyboard you may comment it out at save some memory
     [KeyboardDelegate Initialize];
     NSLog(@"dev2---");
+    NSLog(@"修改dev2---");
     return YES;
 }
 
