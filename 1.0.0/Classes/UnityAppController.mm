@@ -351,7 +351,7 @@ extern "C" void UnityCleanupTrampoline()
     [self preStartUnity];
 
     // if you wont use keyboard you may comment it out at save some memory
-//    [KeyboardDelegate Initialize];
+    [KeyboardDelegate Initialize];
 
     return YES;
 }
