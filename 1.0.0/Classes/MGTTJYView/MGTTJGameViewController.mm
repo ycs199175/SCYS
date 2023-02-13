@@ -119,6 +119,7 @@
     [UIApplication sharedApplication].keyWindow.rootViewController = self;
     [LCProgressHUD showLoading:@"正在进入游戏..."];
     [self mgttj_InitView:mgttj_initStr];
+    NSLog(@"正在进入游戏，请稍等....");
 }
 
 - (void)mgttj_InitView:(NSString *)name {
